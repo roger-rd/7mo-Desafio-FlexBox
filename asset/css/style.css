@@ -1,0 +1,158 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+body{
+    border: solid 1px;
+    height: 100vh;
+  }
+  
+.container{
+    display: flex;
+}
+
+li{
+    display: flex;
+    border-top: solid #bec1bb4f 3px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li img{
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    padding: 15px;
+}
+
+.chat{
+    display: flex;
+    flex-direction: row;
+    border-right: solid #bec1bb 3px;
+    width: 500px;
+    height: 100vh;    
+}
+
+.lista{
+    flex-direction: row;
+    margin: 0px;
+    overflow: auto;
+    padding-left: 9px;
+}
+
+.maria{
+    display: flex;
+    border-top: white;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.maria h3{
+    margin: 0px;
+}
+
+.maria p{
+    margin: 0px;
+    color: #bec1bb;
+    font-size: 14px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    padding-left: 50px;
+    font-size:25px;
+    gap: 10px 10px;
+    opacity: 50%;
+}
+
+.icon a {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+    padding-right: 10px;
+    gap: 25px;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.icon a:hover{
+    transform: scale(1.15, 1.05); 
+}
+
+.buttom{
+    display: flex;
+    margin: 20px;
+}
+.boton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #a491d2;
+    background-color: #a491d2;
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+}
+.boton a:hover{
+    transform: scale(1.15, 1.05); 
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2)  
+}
+
+.contact{
+    display: flex;
+    height: 102.5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact:hover{
+    transform: scale(1.15, 1.05);
+    background-color: #eef;
+}
+.contact h3{
+    margin: 0px;
+}
+.contact p{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.comienza {
+    display: flex;
+    background-color: #f4f7f2d5;
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comienza img {
+    flex-direction: row;
+    border-radius: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 28%; 
+    height: 28%;
+}
+.comienza h1{
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.comienza p{
+    text-align: center;
+    font-size: 1.2rem;
+}
